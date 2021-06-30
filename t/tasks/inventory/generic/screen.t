@@ -161,8 +161,8 @@ my %edid_tests = (
     'lcd.acer-al1921' => {
         MANUFACTURER => 'Acer Technologies',
         CAPTION      => 'Acer AL1921',
-        SERIAL       => 'ETL2508043',
-        ALTSERIAL    => 'ETL25080445001d943',
+        SERIAL       => 'ETL25080445001d943',
+        ALTSERIAL    => 'ETL2508043',
         DESCRIPTION  => '45/2004'
     },
     'lcd.acer-al19161.1' => {
@@ -241,6 +241,13 @@ my %edid_tests = (
         ALTSERIAL    => 'LVB080014200',
         DESCRIPTION  => '12/2013'
     },
+    'prj.acer-p1283' => {
+        MANUFACTURER => 'Acer Technologies',
+        CAPTION      => 'Acer P1283',
+        SERIAL       => 'JHG11001523014305900',
+        ALTSERIAL    => 'JHG110015900',
+        DESCRIPTION  => '23/2015'
+    },
     'lcd.acer-r221q' => {
         MANUFACTURER => 'Acer Technologies',
         CAPTION      => 'R221Q',
@@ -272,9 +279,16 @@ my %edid_tests = (
     'lcd.acer-x193hq' => {
         MANUFACTURER => 'Acer Technologies',
         CAPTION      => 'X193HQ',
-        SERIAL       => 'LEK0D0998545',
-        ALTSERIAL    => 'LEK0D09994003c0c8545',
+        SERIAL       => 'LEK0D09994003c0c8545',
+        ALTSERIAL    => 'LEK0D0998545',
         DESCRIPTION  => '40/2009'
+    },
+    'prj.acer-x128h' => {
+        MANUFACTURER => 'Acer Technologies',
+        CAPTION      => 'Acer X128H',
+        SERIAL       => 'JQ811001746013265900',
+        ALTSERIAL    => 'JQ8110015900',
+        DESCRIPTION  => '46/2017'
     },
     'lcd.acer-v246hl' => {
         MANUFACTURER => 'Acer Technologies',
@@ -310,6 +324,13 @@ my %edid_tests = (
         SERIAL       => 'LX2EE0023497a1aa4200',
         ALTSERIAL    => 'LX2EE0024200',
         DESCRIPTION  => '49/2013'
+    },
+    'prj.acer-h6517abd' => {
+        MANUFACTURER => 'Acer Technologies',
+        CAPTION      => 'Acer H6517ABD',
+        SERIAL       => 'JNB11001911005f25900',
+        ALTSERIAL    => 'JNB110015900',
+        DESCRIPTION  => '11/2019'
     },
     'lcd.acer-k222hql' => {
         MANUFACTURER => 'Acer Technologies',
