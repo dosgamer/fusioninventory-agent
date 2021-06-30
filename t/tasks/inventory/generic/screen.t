@@ -117,15 +117,15 @@ my %edid_tests = (
     'crt.SM550S' => {
         MANUFACTURER => 'Samsung Electric Company',
         CAPTION      => undef,
-        SERIAL       => 'HXAKB13419',
-        ALTSERIAL    => 'DP15HXAKB13419',
+        SERIAL       => 'DP15HXAKB13419',
+        ALTSERIAL    => 'HXAKB13419',
         DESCRIPTION  => '48/1999'
     },
     'crt.SM550V' => {
         MANUFACTURER => 'Samsung Electric Company',
         CAPTION      => 'S/M 550v',
-        SERIAL       => 'HXBN407938',
-        ALTSERIAL    => 'DP15HXBN407938',
+        SERIAL       => 'DP15HXBN407938',
+        ALTSERIAL    => 'HXBN407938',
         DESCRIPTION  => '16/2000'
     },
     'crt.sony-gdm400ps' => {
@@ -538,15 +538,15 @@ my %edid_tests = (
     'lcd.samsung-191n' => {
         MANUFACTURER => 'Samsung Electric Company',
         CAPTION      => 'SyncMaster',
-        SERIAL       => 'HCHW600639',
-        ALTSERIAL    => 'GH19HCHW600639',
+        SERIAL       => 'GH19HCHW600639',
+        ALTSERIAL    => 'HCHW600639',
         DESCRIPTION  => '23/2003'
     },
     'lcd.samsung-2494hm' => {
         MANUFACTURER => 'Samsung Electric Company',
         CAPTION      => 'SyncMaster',
-        SERIAL       => 'H9XS933672',
-        ALTSERIAL    => 'KI24H9XS933672',
+        SERIAL       => 'KI24H9XS933672',
+        ALTSERIAL    => 'H9XS933672',
         DESCRIPTION  => '39/2009'
     },
     'lcd.samsung-s22c450' => {
