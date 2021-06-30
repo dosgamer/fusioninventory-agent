@@ -19,10 +19,17 @@ sub _has_serial_number2 {
 sub serial {
     my ($self) = @_;
 
+    # Add liter 'A' to serial number for barcode
+    my $serial = $self->{_serial};
+    if (length($serial) == 13) {
+        my $part1 = substr($serial,0,3);
+        my $part2 = substr($serial,3,10);
+        $serial = $part1."A".$part2;
+    }
     # Revert serial and altserial when no serial2 found
     return $self->_altserial unless $self->_has_serial_number2();
 
-    return $self->{_serial};
+    return $serial;
 }
 
 sub altserial {

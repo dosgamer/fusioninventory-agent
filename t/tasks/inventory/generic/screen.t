@@ -504,10 +504,22 @@ my %edid_tests = (
         SERIAL       => ' HD  021838',
         DESCRIPTION  => '42/2002'
     },
+    'lcd.philips-220v4' => {
+        MANUFACTURER => 'Philips Consumer Electronics Company',
+        CAPTION      => 'Philips 220V4',
+        SERIAL       => 'UK4A1524032914',
+        DESCRIPTION  => '24/2015'
+    },
+    'lcd.philips-243v5' => {
+        MANUFACTURER => 'Philips Consumer Electronics Company',
+        CAPTION      => 'PHL 243V5',
+        SERIAL       => 'ZV0A1912014103',
+        DESCRIPTION  => '12/2019'
+    },
     'lcd.philips-288p6-vga' => {
         MANUFACTURER => 'Philips Consumer Electronics Company',
         CAPTION      => 'Philips 288P6',
-        SERIAL       => 'AU51430006456',
+        SERIAL       => 'AU5A1430006456',
         DESCRIPTION  => '30/2014'
     },
     'lcd.philips-288p6-hdmi' => {
