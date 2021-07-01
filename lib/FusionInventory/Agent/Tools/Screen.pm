@@ -108,6 +108,11 @@ sub manufacturer {
     return $self->{_manufacturer};
 }
 
+sub model {
+    my ($self) = @_;
+    return $self->{_caption};
+}
+
 1;
 __END__
 

@@ -65,6 +65,7 @@ sub _getEdidInfo {
         CAPTION      => $screen->caption || undef,
         DESCRIPTION  => $screen->week_year_manufacture,
         MANUFACTURER => $screen->manufacturer,
+        MODEL        => $screen->model || undef,
         SERIAL       => $screen->serial
     };
 
@@ -142,6 +143,7 @@ sub _getScreensFromWindows {
             NAME         => $object->{Caption},
             TYPE         => $object->{MonitorType},
             MANUFACTURER => $object->{MonitorManufacturer},
+            MODEL        => $object->{Caption},
             CAPTION      => $object->{Caption}
         };
     }
@@ -303,6 +305,7 @@ sub _getScreens {
             $screen->{CAPTION}      = $info->{CAPTION};
             $screen->{DESCRIPTION}  = $info->{DESCRIPTION};
             $screen->{MANUFACTURER} = $info->{MANUFACTURER};
+            $screen->{MODEL}        = $info->{MODEL};
             $screen->{SERIAL}       = $info->{SERIAL};
             $screen->{ALTSERIAL}    = $info->{ALTSERIAL} if $info->{ALTSERIAL};
         }
